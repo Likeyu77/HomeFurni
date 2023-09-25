@@ -19,7 +19,7 @@ const Filters = () => {
       <div className=" flex flex-row justify-center items-center">
         <input
           type="search"
-          className=" mr-4 w-1/3 h-10 pl-4 border-primary border-2 rounded-full"
+          className=" mr-4 w-full sm:w-1/3 h-10 pl-4 border-primary border-2 rounded-full"
           placeholder="What are you looking for?"
         />
         <button type="submit" className="btn btn-primary btn-sm">

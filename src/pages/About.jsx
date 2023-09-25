@@ -5,19 +5,19 @@ import customer from '../assets/customer.jpg'
 const About = () => {
   return (
     <>
-      <div className="relative w-full h-64 md:h-80 bg-slate-300 overflow-hidden">
+      <div className="relative w-full h-52 sm:h-64 md:h-80 bg-slate-300 overflow-hidden">
         <img
           src={aboutUS}
           alt="about use"
           className="h-full w-full object-cover -z-10"
         />
         <div
-          className="absolute md:h-32 md:w-64 md:text-5xl h-24 w-48 top-1/3 flex text-3xl items-center
+          className="absolute md:h-32 md:w-64 md:text-5xl h-20 w-32 sm:h-24 sm:w-48 top-1/3 flex  text-2xl sm:text-3xl items-center
          bg-slate-300/70">
           <h1 className="pl-4 text-neutral">About Us</h1>
         </div>
       </div>
-      <article className="py-8 px-12 h-80 md:h-48 flex items-center">
+      <article className="py-8 px-12 h-80 md:h-48 flex items-center mt-12">
         <p>
           <span className="font-bold text-xl">HomeFurni</span>, a renowned name
           with a 30-year legacy, is your ultimate destination for furniture that
