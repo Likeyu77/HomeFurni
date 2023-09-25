@@ -1,7 +1,7 @@
 HomeFurni
 
 HomeFurni is a commercial website to selling the furnitures.
-Teck stack: React, Redux, axios, react roater, Tailwindcss, daisyUI
+Teck stack: React, Redux, axios, react router, Tailwindcss, daisyUI
 
 Run The App Locally
 
