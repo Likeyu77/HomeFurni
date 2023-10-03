@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full carousel rounded-box mt-8">
+      <div className="w-full carousel rounded-box mt-8 sm:hidden">
         <div className="carousel-item w-full">
           <img
             src={hero1}
